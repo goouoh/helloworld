@@ -22,8 +22,8 @@ jobs:
     
     - name: Display github.workspace bypwsh
       run: |
-        echo "github.workspace is s((github.workspaceJ)."
-        ls $((github.workspace })
+        echo "github.workspace is ${{github.workspace}}."
+        ls ${{github.workspace}}
 
     - name: Configure CMake
       # Configure CMake in a 'build' subdirectory. `CMAKE_BUILD_TYPE` is only required if you are using a single-configuration generator such as make.
